@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ArcoLinux Guide',
-  tagline: 'by _0081',
+  tagline: '享受学习的过程，掌握ArchLinux的精髓。从ArcoLinux到ArchLinux的学习之旅',
   favicon: 'img/sun.ico',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: '_0081', // Usually your GitHub org/user name.
+  projectName: 'ArcoLinux-Guide', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -67,12 +67,29 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'docs',
-            position: 'left',
+            position: 'right',
             label: '安装指南',
           },
-          
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'docSidebar',
+            sidebarId: 'lpath',
+            position: 'right',
+            label: '学习路线',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'desktop',
+            position: 'right',
+            label: '桌面介绍',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'app',
+            position: 'right',
+            label: '应用推荐',
+          },
+          {
+            href: 'https://github.com/A0081/ArcoLinux-Guide',
             label: 'GitHub', //顶栏github
             position: 'right',
           },
@@ -151,7 +168,7 @@ const config = {
               
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/A0081/ArcoLinux-Guide',
               },
             ],
           },

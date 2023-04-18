@@ -4,35 +4,36 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '内容详尽',
     Svg: require('@site/static/img/Coder.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        ArcoGuide 从ArchLinux的安装开始介绍了30+的桌面环境，并未网络封锁地区提供了较为完善的
+        科学上网教程，致力帮助各位打造舒适高校的个人桌面环境。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/Customer.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: '图文丰富',
     Svg: require('@site/static/img/Newsletter.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       ArcoGuide搜罗了来自全球各地的各路大神所使用的桌面配置，为你提供了丰富、多样的选择。
+       无论你是想要打造高效工作环境，
+       还是追求个性化的Linux世界，这些桌面环境都能为你提供灵感和思路
       </>
     ),
   },
+  {
+    title: '疑难解答',
+    Svg: require('@site/static/img/Customer.svg').default,
+    description: (
+      <>
+        ArcoGuide集合了我在n多次的Archlinux重装中累计下来的经验，和在使用众多桌面是踩的坑。并且包含解答网友各种问题的汇总。解决了网络上教程质量良莠不齐的问题
+      </>
+    ),
+  },
+  
 ];
 
 function Feature({Svg, title, description}) {
