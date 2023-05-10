@@ -40,10 +40,10 @@ Arch 需要从零开始一步一步搭建自己的 Linux 系统，这对于新�
 
 ## 安装
 
-这个项目使用 [node](http://nodejs.org) 和 [npm](https://npmjs.com)。请确保你本地安装了它们。
+这个项目由[**Docusaurus**](https://docusaurus.io/)驱动，使用 [node](http://nodejs.org) 和 [npm](https://npmjs.com)。请确保你本地安装了它们。
 
 ```sh
-$ npm install --global standard-readme-spec
+sudo pacman -S npm node
 ```
 
 ## 使用说明
@@ -51,13 +51,15 @@ $ npm install --global standard-readme-spec
 这只是一个文档包，你可以打印出 [spec.md](spec.md) 到输出窗口。
 
 ```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
+git clone https://github.com/A0081/ArcoLinux-Guide
+cd ArcoLinux-Guide
+npm init docusaurus
+npm run start
 ```
 
 ## 相关文档
 
-- [人生苦短，我用Manjaro](https://maanjaro.i0081.wiki) — 💌入门级manjaor扫盲。
+- [人生苦短，我用Manjaro](https://manjaro.i0081.wiki) — 💌入门级manjaor扫盲。
 - [Chadwm配置详解](https://dwm.i0081.wiki) — 我的Chadwm-dotfile详解。
 
 ## 维护者
