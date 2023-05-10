@@ -68,4 +68,4 @@ npm run start
 
 ## 使用许可
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) © _0081
